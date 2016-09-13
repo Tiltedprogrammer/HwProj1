@@ -1,4 +1,4 @@
-n = int(input("Вывод простых числе до числа(включительно): ")) +1
+n = int(input("Вывод простых чисел до числа(включительно): ")) +1
 vsechisla = [True for i in range(n)]
 for x in range(2,n):
 	for j in range(x * 2,n,x):
