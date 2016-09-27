@@ -4,7 +4,7 @@
 int main()
 {
     int a,b;
-    scanf("%d%d", &x, &y);
+    scanf("%i%i", &a, &b);
     printf("%i", (a>>1)+(b>>1)+(((a&1)+(b&1))>>1));
     return 0;
 }
