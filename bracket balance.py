@@ -8,5 +8,9 @@ for i in stroka:
 		elif skobki.find(i) % 2 != 0:
 			if len(stack) == 0:
 				print('Is not balanced')
+				break
 			elif (stack.pop()+i) not in skobki:
 					print('Is not balanced')
+					break
+if len(stack) != 0:
+	print('Is not balanced')
